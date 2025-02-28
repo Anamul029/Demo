@@ -9,10 +9,10 @@ const NavBar = () => {
                 <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         {/* left side */}
-                        <div className="flex items-center gap-10 justify-center">
+                        <div className="flex items-center justify-between gap-52">
                             <div className="md:flex md:items-center md:gap-12">
                                 <a className="block font-semibold text-2xl" href="#" title="Home">
-                                   Monitoring Company
+                                    Monitoring Company
                                 </a>
                             </div>
 
@@ -20,58 +20,11 @@ const NavBar = () => {
                                 <nav aria-label="Global">
                                     <ul className="flex items-center gap-6 text-sm">
                                         <li><a className="transition hover:text-gray-400" href="#">Monitoring</a></li>
-                                        <li><a className="transition hover:text-gray-400" href="#">Integration</a></li>
-                                        <li><a className="transition hover:text-gray-400" href="#">Status Page</a></li>
                                         <li><a className="transition hover:text-gray-400" href="#">Pricing</a></li>
-                                        <li><a className="transition hover:text-gray-400" href="#">Enterprise</a></li>
-                                        {/* <li><a className="transition hover:text-gray-400" href="#">Resources</a></li> */}
-                                        <div className="relative group">
-                                            <summary style={{ listStyle: "none" }} className="cursor-pointer text-white hover:text-blue-600">
-                                                Resourses
-                                            </summary>
-                                            <ul className="menu  gap-2 dropdown-content z-50 bg-base-100 text-[16px] hover:border-2 hover:border-black bg-white text-black cursor-pointer hover:text-green-500 rounded-box w-52 p-2 shadow hidden group-hover:block absolute">
-                                                <li>
-                                                    <a>
-                                                        Knoledge Hub
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a>
-                                                        Case Study
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a>
-                                                        Blog
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a>
-                                                        Help
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a>
-                                                        API Docs
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a>
-                                                        FAQs
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a>
-                                                        Location
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a>
-                                                        Roadmaps
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <li><a className="transition hover:text-gray-400" href="#">About Us</a></li>
+                                        <li><a className="transition hover:text-gray-400" href="#">Contuct Us</a></li>
+
+
                                     </ul>
                                 </nav>
                             </div>
@@ -103,59 +56,12 @@ const NavBar = () => {
                         <div className="md:hidden bg-gray-900 text-white p-4">
                             <nav>
                                 <ul className="flex flex-col gap-4 text-sm">
+
                                     <li><a className="transition hover:text-gray-400" href="#">Monitoring</a></li>
-                                    <li><a className="transition hover:text-gray-400" href="#">Integration</a></li>
-                                    <li><a className="transition hover:text-gray-400" href="#">Status Page</a></li>
                                     <li><a className="transition hover:text-gray-400" href="#">Pricing</a></li>
-                                    <li><a className="transition hover:text-gray-400" href="#">Enterprise</a></li>
-                                    {/* <li><a className="transition hover:text-gray-400" href="#">Resources</a></li> */}
-                                    <div className="relative group">
-                                    <summary style={{ listStyle: "none" }} className="cursor-pointer text-white hover:text-blue-600">
-                                                Resourses
-                                            </summary>
-                                        <ul className="menu  gap-2 dropdown-content z-50  text-[16px] hover:border-2 hover:border-black bg-white text-black cursor-pointer hover:text-green-500 rounded-box w-52 p-2 shadow hidden group-hover:block absolute">
-                                        <li>
-                                                <a>
-                                                    Knoledge Hub
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    Case Study
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    Blog
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    Help
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    API Docs
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    FAQs
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    Location
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    Roadmaps
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    <li><a className="transition hover:text-gray-400" href="#">About Us</a></li>
+                                    <li><a className="transition hover:text-gray-400" href="#">Contuct Us</a></li>
+
                                 </ul>
                             </nav>
                         </div>

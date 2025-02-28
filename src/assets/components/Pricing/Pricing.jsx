@@ -3,7 +3,7 @@ const Pricing = () => {
 
     return (
     
-        <div className="max-w-[1900px] px-[10%] mx-auto py-8  sm:py-12 lg:py-16">
+        <div className="md:w-[1280px] lg:w-[1440px] font-inter  px-[10%] mx-auto py-8  sm:py-12 lg:py-16">
             <div className="text-center my-5">
                 <h2 className="text-gray-800 text-3xl md:text-4xl font-bold  mb-4">Flexible pricing options. </h2>
                 <p className="text-lg font-semibold text-gray-500">Save ~20% with annual billing. </p>

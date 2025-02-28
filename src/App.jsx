@@ -16,6 +16,7 @@ import InformCustomer from "./assets/components/Inform/InformCustomer"
 import AddMembers from "./assets/components/AddTeamMembers/AddMembers"
 import Contact from "./assets/components/Contact/Contact"
 import Faq from "./assets/components/FAQ/FAQ"
+import OurValues from "./assets/components/OurValues/OurValues"
 
 function App() {
 
@@ -29,21 +30,24 @@ function App() {
 
   return (
     <>
-      <NavBar></NavBar>
-      <Banner></Banner>
-      {/* <Logo></Logo> */}
-      <Monitoring></Monitoring>
-      <AdcancedFeatured></AdcancedFeatured>
-      {/* <Social /> */}
-      <MobileShow />
-      <InformCustomer/>
-      <AddMembers/>
-      <Pricing />
-      <Testimonials />
-      <Faq/>
-      {/* <FreeAccount /> */}
-      <Contact/>
-      <Footer />
+      <div className="font-[Inter] max-w-[1900px]">
+        <NavBar></NavBar>
+        <Banner></Banner>
+        {/* <Logo></Logo> */}
+        <Monitoring></Monitoring>
+        <AdcancedFeatured></AdcancedFeatured>
+        {/* <Social /> */}
+        {/* <MobileShow /> */}
+        <OurValues />
+        <InformCustomer />
+        {/* <AddMembers /> */}
+        <Pricing />
+        <Testimonials />
+        <Faq />
+        {/* <FreeAccount /> */}
+        <Contact />
+        <Footer />
+      </div>
     </>
   )
 }

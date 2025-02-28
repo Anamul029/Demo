@@ -2,7 +2,7 @@ import FeatureCard from "./FeatureCard";
 
 const AdcancedFeatured = () => {
       return (
-            <div className='my-20 px-[10%] max-w-[1900px] mx-auto'>
+            <div className='my-20 px-[10%] md:w-[1280px] lg:w-[1440px] mx-auto font-inter '>
                   <h1 className='text-center font-bold text-3xl md:text-5xl '>Advanced features for <br /> <span className="text-teal-600">Our Users</span> </h1>
                   {/* advanced Featured section */}
                   <div className='mt-10 grid grid-cols-1 md:grid-cols-3 gap-8'>
@@ -12,7 +12,7 @@ const AdcancedFeatured = () => {
                         <FeatureCard tittle="Custom HTTP requests" description="Need to set an advanced HTTP header? We've got you covered!" />
                         <FeatureCard tittle="Response time monitoring" description="See your response times in a chart to reveal performance hiccups." />
                         <FeatureCard tittle="Multi-location checks" description="We verify incidents from multiple locations to prevent false-positives." />
-                    
+
                   </div>
             </div>
       );

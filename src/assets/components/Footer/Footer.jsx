@@ -1,9 +1,9 @@
 
 const Footer = () => {
     return (
-        <footer className="bg-[#131a26] text-white">
+        <footer className="bg-[#131a26] md:w-[1280px] lg:w-[1440px] mx-auto font-inter  text-white">
             <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
-                <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
                     <div>
                         <div>
                             <button className="font-semibold text-3xl cursor-pointer">Monitoring Company</button>
@@ -92,7 +92,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
+                    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:col-span-2 md:grid-cols-3">
                         {/* 1st part */}
                         <div>
                             <p className="font-semibold text-2xl ">Monitoring. </p>
@@ -114,12 +114,6 @@ const Footer = () => {
                                     <a href="#" className="transition hover:opacity-75">Ping monitoring </a>
                                 </li>
 
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">Port monitoring </a>
-                                </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">TCP monitoring </a>
-                                </li>
                                
                             </ul>
                         </div>
@@ -144,12 +138,7 @@ const Footer = () => {
                                 <li>
                                     <a href="#" className=" transition hover:opacity-75">Contact us </a>
                                 </li>
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75">Write for us </a>
-                                </li>
-                                <li>
-                                    <a href="#" className=" transition bg-amber-500 p-1 hover:opacity-75">We are Hiring </a>
-                                </li>
+                              
                             </ul>
                         </div>
                         {/* 3rd part */}
@@ -157,13 +146,7 @@ const Footer = () => {
                             <p className="font-semibold text-2xl ">Resources.  </p>
 
                             <ul className="mt-6 space-y-4 font-semibold ">
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75"> Integrations</a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className=" transition hover:opacity-75"> API </a>
-                                </li>
+                           
                                 <li>
                                     <a href="#" className=" transition hover:opacity-75"> FAQs </a>
                                 </li>

@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div id="contact" className="mt-20 bg-[#131a26] text-white max-w-[1900px] px-[10%] mx-auto py-20">
+        <div id="contact" className=" bg-[#f0f9ff]  md:w-[1280px] lg:w-[1440px] font-inter  px-[10%] mx-auto pb-20">
             <h3 className="text-3xl font-bold text-center md:ml-10">CONTACT US</h3>
             <div className="p-10 flex flex-col md:gap-12 md:flex-row justify-between">
                 <div className="w-1/2 ">
@@ -38,7 +38,6 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            <hr />
         </div>
     );
 };
