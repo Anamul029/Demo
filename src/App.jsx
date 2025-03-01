@@ -35,7 +35,7 @@ function App() {
         <Banner></Banner>
         {/* <Logo></Logo> */}
         <Monitoring></Monitoring>
-        <AdcancedFeatured></AdcancedFeatured>
+        {/* <AdcancedFeatured></AdcancedFeatured> */}
         {/* <Social /> */}
         {/* <MobileShow /> */}
         <OurValues />
