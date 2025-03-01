@@ -3,25 +3,25 @@ const Pricing = () => {
 
     return (
     
-        <div className="md:w-[1280px] lg:w-[1440px] font-inter  px-[10%] mx-auto py-8  sm:py-12 lg:py-16">
+        <div className=" bg-[#0b0c10]   font-inter  px-[7%] mx-auto py-8  sm:py-12 lg:py-16">
             <div className="text-center my-5">
-                <h2 className="text-gray-800 text-3xl md:text-4xl font-bold  mb-4">Flexible pricing options. </h2>
-                <p className="text-lg font-semibold text-gray-500">Save ~20% with annual billing. </p>
+                <h2 className="text-white text-3xl md:text-4xl font-bold  mb-4">Flexible pricing options. </h2>
+                <p className="text-lg font-semibold text-white">Save ~20% with annual billing. </p>
             </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
-                <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
+                <div data-aos='fade-up' className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
                     <div className="p-6 sm:px-8">
-                        <h2 className="text-lg font-medium text-gray-900">
+                        <h2 className="text-lg font-medium text-white">
                             Starter
                             <span className="sr-only">Plan</span>
                         </h2>
 
-                        <p className="mt-2 text-gray-700">Good for hobby projects. No credit card required!</p>
+                        <p className="mt-2 text-white">Good for hobby projects. No credit card required!</p>
 
                         <p className="mt-2 sm:mt-4">
-                            <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 20$ </strong>
+                            <strong className="text-3xl font-bold text-white sm:text-4xl"> 20$ </strong>
 
-                            <span className="text-sm font-medium text-gray-700">/month</span>
+                            <span className="text-sm font-medium text-white">/month</span>
                         </p>
 
                         <a
@@ -33,54 +33,54 @@ const Pricing = () => {
                     </div>
 
                     <div className="p-6 sm:px-8">
-                        <p className="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                        <p className="text-lg font-medium text-white sm:text-xl">What's included:</p>
 
                         <ul className="mt-2 space-y-2 sm:mt-4">
-                        <li className="flex items-center text-sm text-gray-500">
+                        <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      60 sec. monitoring interval
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      HTTP, port & ping monitor
 
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      Included Keyword monitor
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      SSL & Domain exp. monitor
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      😐Only 9 integrations
                                  </li>
-                                <li className="flex items-center text-sm text-gray-500">
+                                <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      😐Basic status pages
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
-        //                                 <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                        <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      Notify seats available
 
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                     </svg>
@@ -91,19 +91,19 @@ const Pricing = () => {
                     </div>
                 </div>
 
-                <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
+                <div data-aos='fade-up' className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
                     <div className="p-6 sm:px-8">
-                        <h2 className="text-lg font-medium text-gray-900">
+                        <h2 className="text-lg font-medium text-white">
                             Pro
                             <span className="sr-only">Plan</span>
                         </h2>
 
-                        <p className="mt-2 text-gray-700">Good for hobby projects. No credit card required!</p>
+                        <p className="mt-2 text-white">Good for hobby projects. No credit card required!</p>
 
                         <p className="mt-2 sm:mt-4">
-                            <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 30$ </strong>
+                            <strong className="text-3xl font-bold text-white sm:text-4xl"> 30$ </strong>
 
-                            <span className="text-sm font-medium text-gray-700">/month</span>
+                            <span className="text-sm font-medium text-white">/month</span>
                         </p>
 
                         <a
@@ -115,54 +115,54 @@ const Pricing = () => {
                     </div>
 
                     <div className="p-6 sm:px-8">
-                        <p className="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                        <p className="text-lg font-medium text-white sm:text-xl">What's included:</p>
 
                         <ul className="mt-2 space-y-2 sm:mt-4">
-                        <li className="flex items-center text-sm text-gray-500">
+                        <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      100 sec. monitoring interval
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                         <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      HTTP, port & ping monitor
 
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      Included Keyword monitor
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      SSL & Domain exp. monitor
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      😐Only 9 integrations
                                  </li>
-                                <li className="flex items-center text-sm text-gray-500">
+                                <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      😐Basic status pages
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
-        //                                 <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                        <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      Notify seats available
 
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                     </svg>
@@ -173,19 +173,19 @@ const Pricing = () => {
                     </div>
                 </div>
 
-                <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
+                <div data-aos='fade-up' className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-xs">
                     <div className="p-6 sm:px-8">
-                        <h2 className="text-lg font-medium text-gray-900">
+                        <h2 className="text-lg font-medium text-white">
                             Enterprise
                             <span className="sr-only">Plan</span>
                         </h2>
 
-                        <p className="mt-2 text-gray-700">Good for hobby projects. No credit card required!</p>
+                        <p className="mt-2 text-white">Good for hobby projects. No credit card required!</p>
 
                         <p className="mt-2 sm:mt-4">
-                            <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 100$ </strong>
+                            <strong className="text-3xl font-bold text-white sm:text-4xl"> 100$ </strong>
 
-                            <span className="text-sm font-medium text-gray-700">/month</span>
+                            <span className="text-sm font-medium text-white">/month</span>
                         </p>
 
                         <a
@@ -197,54 +197,54 @@ const Pricing = () => {
                     </div>
 
                     <div className="p-6 sm:px-8">
-                        <p className="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+                        <p className="text-lg font-medium text-white sm:text-xl">What's included:</p>
 
                         <ul className="mt-2 space-y-2 sm:mt-4">
-                        <li className="flex items-center text-sm text-gray-500">
+                        <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      200 sec. monitoring interval
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      HTTP, port & ping monitor
 
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      Included Keyword monitor
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      SSL & Domain exp. monitor
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      😐Only 9 integrations
                                  </li>
-                                <li className="flex items-center text-sm text-gray-500">
+                                <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      😐Basic status pages
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
-        //                                 <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+                                         <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                      </svg>
                                      Notify seats available
 
                                  </li>
-                                 <li className="flex items-center text-sm text-gray-500">
+                                 <li className="flex items-center text-sm text-white">
                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" className="mr-3 fill-green-500" viewBox="0 0 24 24">
                                          <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                                     </svg>

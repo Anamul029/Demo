@@ -34,10 +34,10 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="bg-[#f0f9ff] md:w-[1280px] lg:w-[1440px] font-inter  mx-auto px-[8%]">
+    <section className="bg-[#0b0c10] font-inter  mx-auto px-[7%]">
       <div className="mx-auto  px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:ps-8 lg:pe-0 xl:py-24">
         <div className=" items-end justify-between sm:flex sm:pe-6 lg:pe-8">
-          <h2 className=" text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          <h2 className=" text-4xl font-bold tracking-tight text-white sm:text-5xl">
             Read trusted reviews from our customers
           </h2>
 

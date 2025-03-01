@@ -1,12 +1,12 @@
 import faq from '../../images/Speech_Bubble.png'
 const FAQ = () => {
     return (
-        <div className='px-[10%] md:w-[1280px] lg:w-[1440px] font-inter  bg-[#f0f9ff] py-16  mx-auto'>
+        <div className='px-[10%]   bg-[#0b0c10] font-inter  py-16  mx-auto'>
             <div className="flex flex-col md:flex-row ">
                 <div  data-aos='fade-right' data-aos-duration="600" className="flex-1 flex items-center">
-                    <img className='md:w-[420px] w-[90%] px-10 md:px-0 my-5 md:my-0 md:h-[315px]' src={faq} alt="" />
+                    <img className='md:w-[500px]   w-[90%] px-10 md:px-0 my-5 md:my-0 md:h-[415px]' src={faq} alt="" />
                 </div>
-                <div className="flex-1 bg-[#FFFFFF] shadow-2xl md:px-5 md:py-7 md:w-[577px] rounded-2xl">
+                <div className="flex-1 bg-[#FFFFFF] shadow-2xl md:px-5 md:py-7 md:w-[577px] md:scale-75 rounded-2xl">
                     <details
                         className="group px-6 py-3 [&_summary::-webkit-details-marker]:hidden"
                         open
@@ -192,15 +192,8 @@ const FAQ = () => {
                 </div>
                
             </div>
-            <hr className='mt-20' />
-            {/* faq finishig part */}
-            {/* <div className='md:w-[1089px] py-8 md:py-0 md:h-[166px] text-white mx-auto bg-[#704FE6] mt-12 rounded-2xl flex justify-between items-center px-10'>
-                <div>
-                    <h1 className='text-[24px]'>Get Started Today</h1>
-                    <p className='text-[16px] md:w-[695px]'>Don’t just keep up with the competition—outpace them. Join the future of business automation and watch your revenue soar.</p>
-                </div>
-                <button className='md:w-[215px] w-[250px] h-[67px] font-semibold hover:bg-blue-400 bg-[#0BA0FB] text-white md:text-[22px] rounded-2xl'>Start Now</button>
-            </div> */}
+            <hr className='mt-20 text-white' />
+         
          
         </div>
 

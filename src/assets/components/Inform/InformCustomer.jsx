@@ -3,7 +3,7 @@ import { TbExternalLink } from 'react-icons/tb';
 const InformCustomer = () => {
     return (
         <div>
-            <section className="relative md:w-[1280px] lg:w-[1440px] font-inter  px-[10%] border-t-1 border-t-gray-600 mx-auto md:flex flex-col md:flex-row-reverse items-center justify-between min-h-screen ">
+            <section className="   bg-[#0b0c10] text-white font-inter  px-[10%] py-12 border-t-1 border-t-gray-600 mx-auto md:flex flex-col md:flex-row-reverse items-center justify-between  ">
 
                 <div className="w-full md:w-1/2 flex justify-center">
                     {/* <div className="absolute hidden lg:block top-[8vw] w-[450px] h-[450px] bg-blue-400 rounded-full"></div> */}

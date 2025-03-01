@@ -1,10 +1,10 @@
 
 const Footer = () => {
     return (
-        <footer className="bg-[#131a26] md:w-[1280px] lg:w-[1440px] mx-auto font-inter  text-white">
+        <footer className="bg-[#0b0c10]   mx-auto font-inter  text-white">
             <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-                    <div>
+                    <div className="mx-auto md:mx-0">
                         <div>
                             <button className="font-semibold text-3xl cursor-pointer">Monitoring Company</button>
                         </div>
@@ -92,10 +92,10 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:col-span-2 md:grid-cols-3">
+                    <div className="grid  gap-8 grid-cols-3 px-4 md:col-span-2 md:grid-cols-3">
                         {/* 1st part */}
                         <div>
-                            <p className="font-semibold text-2xl ">Monitoring. </p>
+                            <p className="font-semibold text-xl md:text-2xl ">Monitoring. </p>
 
                             <ul className="mt-6 space-y-4 font-semibold">
                                 <li>
@@ -119,7 +119,7 @@ const Footer = () => {
                         </div>
                         {/* 2nd part */}
                         <div>
-                            <p className="font-semibold text-2xl ">Company</p>
+                            <p className="font-semibold text-xl md:text-2xl ">Company</p>
 
                             <ul className="mt-6 space-y-4 font-semibold">
                                 <li>
@@ -143,7 +143,7 @@ const Footer = () => {
                         </div>
                         {/* 3rd part */}
                         <div>
-                            <p className="font-semibold text-2xl ">Resources.  </p>
+                            <p className="font-semibold text-xl md:text-2xl ">Resources.  </p>
 
                             <ul className="mt-6 space-y-4 font-semibold ">
                            

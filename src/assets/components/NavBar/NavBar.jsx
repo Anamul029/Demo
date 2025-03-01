@@ -4,14 +4,14 @@ const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="fixed z-50 w-full">
-            <header className="bg-black text-white">
+        <div className="fixed z-50 w-full max-w-[1920px] mx-auto">
+            <header className="bg-gradient-to-tl bg-gray-800 text-white">
                 <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         {/* left side */}
-                        <div className="flex items-center justify-between gap-52">
-                            <div className="md:flex md:items-center md:gap-12">
-                                <a className="block font-semibold text-2xl" href="#" title="Home">
+                        <div className="flex items-center justify-between md:gap-5 lg:gap-36">
+                            <div className="md:flex md:items-center lg:gap-12">
+                                <a className="block md:hidden lg:block font-semibold text-2xl" href="#" title="Home">
                                     Monitoring Company
                                 </a>
                             </div>
@@ -68,6 +68,7 @@ const NavBar = () => {
                     )}
                 </div>
             </header>
+        
         </div>
     );
 };
